@@ -1,0 +1,72 @@
+.section-initial {
+  max-width: 1040px;
+  justify-items: center;
+  padding-top: 120px;
+  background-image: url("assets/Background_Intro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.s-i-personal-data {
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  margin-bottom: 56px;
+}
+
+.s-i-personal-data img {
+  width: 96px;
+  height: 96px;
+}
+
+.s-i-personal-data p:first-of-type {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #c0c4ce;
+}
+
+.s-i-personal-data h2 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #e2e4e9;
+}
+
+.s-i-personal-data p:nth-of-type(2) {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #878ea1;
+}
+
+.s-i-technologies-used {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.s-i-technologies-used figure {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #292c34;
+  border-radius: 999px;
+}
+
+.s-i-technologies-used figure img {
+  width: 19.5;
+  height: 19.2;
+}
+
+.s-i-technologies-used figcaption {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #c0c4ce;
+}
+
+.CaretDoubleDown {
+  margin-block: 56px;
+}

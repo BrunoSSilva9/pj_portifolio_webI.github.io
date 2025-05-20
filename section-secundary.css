@@ -1,0 +1,52 @@
+.section-secundary {
+  background-color: #0d0e11;
+  width: 100%;
+  justify-items: center;
+  padding: 56px;
+  margin-bottom: 120px;
+}
+
+.section-secundary p:first-child {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #e3646e;
+  margin-bottom: 8px;
+}
+
+.section-secundary h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #e2e4e9;
+}
+
+.section-secundary > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.section-secundary figure {
+  display: grid;
+  gap: 20px;
+  border: solid 2px #16181d;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.section-secundary span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #e2e4e9;
+}
+
+.section-secundary figure p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #c0c4ce;
+  line-height: 1.4;
+  margin-top: 8px;
+}
