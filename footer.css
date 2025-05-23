@@ -1,11 +1,13 @@
 .footer-container {
+  width: 100%;
+  max-width: 1040px;
   display: grid;
   gap: 48px;
   justify-items: center;
   margin-bottom: 200px;
   background-image: url("assets/Background_Contacts.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
@@ -54,4 +56,9 @@
   display: flex;
   gap: 12px;
   align-items: center;
+}
+
+.footer-content-items figure a {
+  text-decoration: none;
+  color: #c0c4ce;
 }
